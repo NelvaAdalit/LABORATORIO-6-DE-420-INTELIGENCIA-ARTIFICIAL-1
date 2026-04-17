@@ -1,4 +1,4 @@
-#  Clasificación de Patologías Médicas (NHANES) mediante Deep Learning
+#  Clasificación de Patologías Médicas (NHANES) 
 INTEGRANTES:
 # INTEGRANTES: ABALOS PEREZ JUAN JOSE.
 # MORA BARRIONUEVO NELVA ADALIT
