@@ -23,8 +23,7 @@ Este proyecto fue desarrollado bajo estrictas guías de rigor académico y matem
 
 ### 1. Tratamiento Ético del Desbalance de Datos (Class Weights)
 El dataset original presentaba un claro desbalance poblacional (ej. mucha prevalencia de Obesidad frente a Hipertensión). 
-En un contexto de salud clínico, **se descartó el uso de técnicas generadoras de datos sintéticos (como SMOTE)**, ya que inventar historiales de pacientes puede introducir perfiles biológicamente irreales. 
-En su lugar, se optó por una solución matemática: la implementación de **Pesos de Clase (Class Weights)** directamente en la función de pérdida (`CrossEntropyLoss`). Esto fuerza a la red neuronal a penalizar con mayor severidad los errores cometidos al diagnosticar las enfermedades minoritarias, obligando al modelo a prestar la misma atención a todas las patologías.
+Se optó por una solución matemática: la implementación de **Pesos de Clase (Class Weights)** directamente en la función de pérdida (`CrossEntropyLoss`). Esto fuerza a la red neuronal a penalizar con mayor severidad los errores cometidos al diagnosticar las enfermedades minoritarias, obligando al modelo a prestar la misma atención a todas las patologías.
 
 ### 2. Regularización y Prevención de Overfitting
 Para evitar que el modelo simplemente "memorice" la muestra de entrenamiento, se combinaron las siguientes estrategias:
