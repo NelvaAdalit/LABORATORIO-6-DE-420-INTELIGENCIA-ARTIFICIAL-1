@@ -1,4 +1,7 @@
 #  Clasificación de Patologías Médicas (NHANES) mediante Deep Learning
+INTEGRANTES:
+# INTEGRANTES: ABALOS PEREZ JUAN JOSE.
+# MORA BARRIONUEVO NELVA ADALIT
 
 Este repositorio contiene la implementación de una Red Neuronal Profunda (MLP) desarrollada en PyTorch para la clasificación multiclase de condiciones de salud crónicas utilizando el dataset oficial NHANES (National Health and Nutrition Examination Survey).
 
